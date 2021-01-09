@@ -286,7 +286,7 @@ color: #757575;
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
-    transition: border 250ms var(--timing-function)
+    transition: border 250ms var(--timing-function);
   }
   .label-policy {
     display: flex;
@@ -323,7 +323,7 @@ color: #757575;
     margin-left: 4px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: var(--accent-color)
+    color: var(--accent-color);
   }
 .is-hidden {
   opacity: 0;
