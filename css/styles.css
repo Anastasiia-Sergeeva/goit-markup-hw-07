@@ -4,30 +4,7 @@
   --accent-color: #2196f3;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-ul,
-p {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-.body {
-  font-family: var(--main-font);
-  font-style: normal;
-}
 
-.container {
-  display: flex;
-
-  align-items: center;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .navigation {
   display: flex;
