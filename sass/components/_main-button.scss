@@ -13,8 +13,12 @@
     border: 1px solid var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color 250ms var(--timing-function);
+
+    &hover {
+      background: #188ce8;
+    }
+    &focus {
+      background: #188ce8;
+    }
   }
-  .main-btn:hover,
-  .main-btn:focus {
-    background: #188ce8;
-  }
+  

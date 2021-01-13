@@ -56,6 +56,12 @@
     height: 44px;
     border-radius: 50%;
     transition: background-color 250ms var(--timing-function);
+    &hover {
+      background-color: var(--accent-color);
+    }
+    &focus{
+      background-color: var(--accent-color);
+    }
   }
   .soc-list_icons {
     width: 20px;
@@ -65,10 +71,7 @@
   .soc-list_item:not(:last-child) {
     margin-right: 10px;
   }
-  .soc-list_link:hover,
-  .soc-list_link:focus {
-    background-color: var(--accent-color);
-  }
+  
   .footer-form {
     margin-left: 93px;
   }
@@ -84,10 +87,11 @@
     background: #2f303a;
     border-radius: 4px;
     outline: none;
+    &focus {
+      border-color: var(--accent-color);
+    }
   }
-  .footer-input:focus {
-    border-color: var(--accent-color);
-  }
+  
   .foot-btn {
     display: flex;
     align-items: center;
