@@ -13,9 +13,10 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     background: #ffffff;
-  }
-  .team-list-item + .team-list-item {
-    margin-left: 30px;
+   
+    &+ .team-list-item {
+      margin-left: 30px;
+    }
   }
   .team-icon {
     margin-top: 30px;

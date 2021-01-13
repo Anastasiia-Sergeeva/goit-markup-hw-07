@@ -56,10 +56,8 @@
     height: 44px;
     border-radius: 50%;
     transition: background-color 250ms var(--timing-function);
-    &hover {
-      background-color: var(--accent-color);
-    }
-    &focus{
+    &:hover,
+    &:focus{
       background-color: var(--accent-color);
     }
   }
@@ -87,7 +85,7 @@
     background: #2f303a;
     border-radius: 4px;
     outline: none;
-    &focus {
+    &:focus {
       border-color: var(--accent-color);
     }
   }
